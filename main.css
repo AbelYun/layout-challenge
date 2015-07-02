@@ -1,0 +1,186 @@
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+
+ul{
+	padding:0;
+	margin:0;
+}
+
+li{
+	list-style-type:none;
+	display:inline-block;
+	right-margin:1em;
+}
+
+.container-fluid{
+	bottom-margin:0;
+	top-margin:0;
+}
+
+
+#tag-line{
+	display:none;
+}
+
+
+body{
+	font-family:'Lato';
+	font-size:16px;
+	font-weight:300;
+	
+}
+
+.col-xs-4{
+	width:80px;
+}
+
+.nav-links{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.nav-links a:link{
+	color:#55E;
+}
+
+.nav-links a:visited{
+	color:#55E;
+}
+
+.nav-links a:hover{
+	color:#00E;
+}
+
+a:link{
+	color:#0000AA;
+	text-decoration:none;
+	
+}
+
+a:visited{
+	color:#0000AA;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#0000EE;
+}
+
+
+input:focus{
+	color:#0000EE;
+}
+
+h1{
+	font-family:'Raleway';
+	color:#FFFFFF;
+	font-size:300%;
+	font-weight:300;
+	margin:0;
+}
+
+h2{
+	font-family:'Raleway';
+	color:#505050;
+	font-size:150%
+	margin:0;
+	font-weight:300;
+}
+
+h3{
+	font-family:'Raleway';
+	font-weight:300;
+	color:#505050;
+	font-size:125%
+	margin:0;
+}
+
+#main-content{
+	background-image:url(img/ricepaper_v3.png);
+	opacity:0.9;
+}
+
+#page-header{
+	font-family:'Raleway';
+	padding: 1em 1em 1em 1em;
+	background-color:#FA5A0F;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#EA4A00;
+}
+
+#tag-line{
+	font-family:'Lato';
+	font-size:120%;
+	color:#EEEEEE;
+	margin:0;
+}
+
+#restaurant-info{
+	padding: 1em 1em 1em 1em;
+}
+
+#menu-section{
+	padding: 1em 1em 1em 1em;
+	background-color: rgb(207, 205, 140);
+	opacity:0.5;
+	
+}
+
+dt{
+	font-weight:400;
+}
+
+dd{
+	margin:0;
+	font-size: 80%;
+	font-style: italic;
+	padding-bottom: 1em;
+	padding-left: 1em;
+
+}
+
+
+#about-us{
+	padding: 1em;
+}
+
+footer{
+	
+	padding: 1em;	
+	background-color:#FC892F;
+	border-top-style:solid;
+	border-top-width:5px;
+	border-top-color:#EC791F;
+	text-align: right;
+	font-size:80%;
+	opacity:0.9;
+	
+}
+
+@media screen and (min-width: 992px) {
+	body{
+		background-image:url(img/background.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		font-size:18px;
+	}
+
+	nav{
+		position:absolute;
+		right:10px;
+		top:10px;
+	}
+	
+	.container-fluid{
+		margin-left:30%;
+		margin-right:20px;
+	}
+
+	#tag-line{
+		display:inline;
+	}
+
+}
